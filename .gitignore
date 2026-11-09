@@ -1,0 +1,33 @@
+﻿# Private keys and certificates
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Certificate backups
+cert-backup/
+**/cert-backup/
+
+# Database and runtime data
+postgres_data/
+redis_data/
+*.rdb
+*.aof
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Configuration backups
+*.backup
+*.backupcls
